@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: linear-gradient(to top, #0096C7, #0054B6);
+    height: 100vw;
+    width: 100vw;
+}
+
+.tempAndImg {
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    justify-content: center;
+}
+
+.temperatura {
+    color: #fff;
+    font-size: 56px;
+}
+
+.textDescription {
+    margin: 10px;
+    color: #fff;
+}
+
+.imgSol {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.containerText {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.input{
+    padding: 10px;
+    align-self: center;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.cityName {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
